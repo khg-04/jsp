@@ -3,19 +3,20 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>cookie</title>
+	<title>session</title>
 	<!-- 
 		날짜: 2024/02/05
 		이름: 김효경
-		내용: 5장 JSP 쿠키세션 실습
+		내용: 5장 JSP 세션 실습
 	 -->
 </head>
 <body>
-	<h3>1.쿠키 실습</h3>
-	<form action="./proc/createCookie.jsp" method="post">
+	<h3>2.세션</h3>
+	<h4>세션 로그인 실습</h4>
+	<form action="./proc2/loginSession.jsp" method="post">
 		<input type="text" name="uid" placeholder="아이디 입력"><br>
 		<input type="passward" name="pass" placeholder="비밀번호 입력"><br>
 		<input type="submit" value="로그인"><br>
-	</form>
+	</form>	
 </body>
 </html>
